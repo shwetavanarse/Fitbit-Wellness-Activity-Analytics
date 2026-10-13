@@ -18,16 +18,8 @@ A Tableau dashboard project exploring fitness activity, sleep quality, and engag
 
 ## 🖥️ Dashboard Preview
 
-<!-- Upload your screenshot to images/fitbit-wellness-dashboard.png -->
-<p align="center">
-  <img src="images/fitbit-wellness-dashboard.png" alt="Fitbit Wellness and Activity Analytics Dashboard created in Tableau" width="100%">
-</p>
+![Uploading Fitbit Wellness & Activity Dashboard.png…]()
 
-<p align="center">
-  <em>Fitbit Wellness & Activity Analytics Dashboard — Tableau</em>
-</p>
-
----
 
 ## 📌 Project Overview
 
