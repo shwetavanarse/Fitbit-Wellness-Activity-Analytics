@@ -1,57 +1,70 @@
 
 # 📊 Fitbit Wellness & Activity Analytics Dashboard
 
-**An interactive Tableau dashboard for exploring fitness activity, wellness metrics, and user behaviour.**
+### Transforming Fitness Data into Meaningful Visual Insights
+
+A Tableau dashboard project exploring fitness activity, sleep quality, and engagement patterns using Fitbit tracker data.
 
 <p align="center">
-  <img src="images/fitbit-wellness-dashboard.png" alt="Fitbit Wellness and Activity Analytics Dashboard built in Tableau" width="100%">
+  <a href="https://public.tableau.com/views/FitbitHealthActivityDashboard/Charts-StepsbyCategory">
+    <img src="https://img.shields.io/badge/Tableau-View%20Dashboard-168C8C?style=for-the-badge&logo=tableau&logoColor=white" alt="View Tableau Dashboard">
+  </a>
+  <a href="https://github.com/shwetavanarse/Fitbit-Wellness-Activity-Analytics">
+    <img src="https://img.shields.io/badge/GitHub-Project%20Repository-17365D?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository">
+  </a>
+</p>
+
+---
+
+## 🖥️ Dashboard Preview
+
+<!-- Upload your screenshot to images/fitbit-wellness-dashboard.png -->
+<p align="center">
+  <img src="images/fitbit-wellness-dashboard.png" alt="Fitbit Wellness and Activity Analytics Dashboard created in Tableau" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://public.tableau.com/views/FitbitHealthActivityDashboard/Charts-StepsbyCategory?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">
-    <strong>🔗 View Interactive Dashboard</strong>
-  </a>
-  &nbsp; • &nbsp;
-  <a href="https://github.com/shwetavanarse/Fitbit-Wellness-Activity-Analytics">
-    <strong>📁 Explore Repository</strong>
-  </a>
+  <em>Fitbit Wellness & Activity Analytics Dashboard — Tableau</em>
 </p>
 
 ---
 
 ## 📌 Project Overview
 
-The **Fitbit Wellness & Activity Analytics Dashboard** is a data visualization project built using Tableau to explore fitness tracker data and present key activity and wellness metrics in an accessible, interactive format.
+The Fitbit Wellness & Activity Analytics Dashboard is a data visualization project developed using Tableau to explore fitness and wellness data.
 
-The dashboard brings together summary KPIs and visual comparisons to help users explore activity patterns, sleep quality, and engagement across different categories and occupations.
+The dashboard combines key performance indicators (KPIs) and comparative visualizations to present activity metrics, sleep quality, and engagement patterns in a single view.
+
+The goal is to make fitness data easier to explore and interpret through clear, structured visual storytelling.
 
 ## 🎯 Project Objectives
 
-- Explore daily activity and fitness metrics.
-- Summarize key indicators using KPI cards.
-- Compare activity patterns across categories and occupations.
-- Examine sleep quality across occupations.
-- Visualize activity changes and engagement patterns.
-- Present data through a clear and user-friendly dashboard.
+- Analyze key fitness and activity indicators.
+- Summarize important metrics through KPI cards.
+- Compare activity patterns across user categories.
+- Explore activity differences across occupations.
+- Visualize sleep quality across occupations.
+- Examine activity changes and engagement categories.
+- Present analytical information in an accessible dashboard.
 
-## 🖥️ Dashboard Highlights
+## 📈 Dashboard Features
 
 | Feature | Description |
 |---|---|
-| KPI Summary | Average daily steps, total users, active minutes, and calories burned |
-| Activity Analysis | Compare steps across user categories |
-| Occupation Analysis | Explore activity differences across occupations |
-| Sleep Analysis | Compare sleep quality across occupations |
-| Engagement Analysis | Explore activity changes and engagement categories |
-| Interactive Visualization | Explore the dashboard using the published Tableau view |
+| KPI Overview | Average daily steps, total users, active minutes, and calories burned |
+| Steps Analysis | Compare steps across user categories |
+| Occupation Analysis | Explore activity patterns by occupation |
+| Sleep Quality | Compare recorded sleep quality across occupations |
+| Engagement Analysis | Examine activity changes and engagement categories |
+| Visual Dashboard | Bring multiple metrics and charts together in one view |
 
 ## 🛠️ Tools & Technologies
 
-- **Tableau Public** — dashboard development and data visualization
-- **CSV** — structured dataset files
-- **GitHub** — version control and project documentation
+- **Tableau** — dashboard development and data visualization
+- **CSV** — dataset storage and input
+- **GitHub** — project hosting and documentation
 
-## 📂 Repository Structure
+## 📂 Project Structure
 
 ```text
 Fitbit-Wellness-Activity-Analytics/
@@ -59,68 +72,71 @@ Fitbit-Wellness-Activity-Analytics/
 ├── images/
 │   └── fitbit-wellness-dashboard.png
 │
-├── Fitbit Health & Activity Dashboard.twbx
-├── Fitbit_Activities.csv
-├── Fitbit_HR.csv
-├── Fitbit_Sleep.csv
-├── Fitbit_Steps.csv
-├── Fitbit_Users.csv
-├── Fitbit_Tracker_Data.pdf
+├── Fitbit Activities CSV
+├── Fitbit Heart Rate CSV
+├── Fitbit Sleep CSV
+├── Fitbit Steps CSV
+├── Fitbit Users CSV
+├── Tableau Workbook (.twbx)
+├── Dataset Reference PDF
 └── README.md
 ```
 
-## 📊 Dataset
-
-The repository includes Fitbit fitness tracker data files covering activity, heart rate, sleep, steps, and user information, along with a PDF data reference.
-
-These datasets support exploration of fitness and wellness indicators through the Tableau dashboard.
-
-**Note:** Review the dataset documentation for the definitions, units, and limitations of individual fields before interpreting the results.
+*The names above describe the expected file roles. Keep the actual filenames already present in your repository.*
 
 ## 🔍 Analytical Questions
 
 This project explores questions such as:
 
-- How do average steps vary across user categories?
-- How does activity differ across occupations?
-- How does recorded sleep quality vary across occupations?
-- Which engagement categories show activity changes?
-- What can KPI summaries reveal about the recorded fitness data?
+- How do average steps differ across user categories?
+- How does recorded activity vary across occupations?
+- How does sleep quality compare across occupations?
+- What activity changes appear across engagement categories?
+- What can the summary KPIs reveal about the available data?
 
-These questions guide the visual analysis; conclusions should be based on the actual dashboard results and validated calculations.
+These questions guide the analysis. Any conclusions should be supported by the actual data and validated calculations.
 
-## 💡 Key Learnings
+## 💡 Skills Demonstrated
 
-Through this project, I practised:
+- Dashboard design and layout
+- Data visualization
+- KPI presentation
+- Comparative analysis
+- Exploratory data analysis
+- Visual storytelling
+- Project documentation using GitHub
 
-- Designing a dashboard with KPI cards and multiple charts.
-- Comparing metrics across categories.
-- Organizing visualizations into a single dashboard.
-- Communicating analytical information through visual storytelling.
-- Documenting a data analytics project for a public portfolio.
+## 🚀 Explore the Project
 
-## 🚀 How to Explore the Project
+### Interactive Dashboard
 
-1. Open the Tableau Public link above to explore the published dashboard.
-2. Browse the repository to review the dataset files.
-3. Download the `.twbx` workbook to explore the dashboard in Tableau Desktop, if compatible with your Tableau version.
-4. Refer to the dataset PDF for field definitions and supporting information.
+[**View the Tableau Public Dashboard →**](https://public.tableau.com/views/FitbitHealthActivityDashboard/Charts-StepsbyCategory)
+
+### Source Files
+
+[**Explore the GitHub Repository →**](https://github.com/shwetavanarse/Fitbit-Wellness-Activity-Analytics)
+
+To explore the workbook, download the Tableau packaged workbook (`.twbx`) from the repository and open it in a compatible version of Tableau Desktop.
 
 ## ⚠️ Notes & Limitations
 
-- Findings depend on the quality and completeness of the supplied dataset.
-- Missing values and metric definitions should be checked before drawing conclusions.
-- Observed relationships do not, by themselves, establish causation.
-- This dashboard is an analytical portfolio project, not a medical assessment tool.
+- Data quality and missing values can affect analytical results.
+- Metric definitions and aggregation levels should be checked before interpreting KPIs.
+- Observed patterns do not establish causation.
+- This project is intended for data analytics learning and visualization, not medical diagnosis.
 
 ## 👩‍💻 Author
 
 **Shweta Vanarse**
 
+BCA Graduate | Data Analytics Portfolio
+
 - GitHub: [@shwetavanarse](https://github.com/shwetavanarse)
-- Project Repository: [Fitbit Wellness & Activity Analytics](https://github.com/shwetavanarse/Fitbit-Wellness-Activity-Analytics)
-- Tableau Public: [Explore the Dashboard](https://public.tableau.com/views/FitbitHealthActivityDashboard/Charts-StepsbyCategory?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- Project: [Fitbit Wellness & Activity Analytics](https://github.com/shwetavanarse/Fitbit-Wellness-Activity-Analytics)
 
 ---
 
-⭐ If you find this project useful, consider starring the repository!
+<p align="center">
+  <strong>Learning through data. Growing through projects. 📊</strong>
+</p>
+
